@@ -1,0 +1,62 @@
+/* for noobs like me, just copy and paste this into ~/.config/wofi/style.css. that is if you can do that... (no judging m8) */
+#input {
+margin: 5px;
+border-width: 1px; /* Set border thickness */
+border-color: #000000; /* Black border */
+border-style: solid; /* Solid border */
+color: #d8dee9;
+background-color: #1e1e1e;
+}
+
+#inner-box {
+margin: 5px;
+border-width: 1px;
+border-color: #000000; /* Black border */
+border-style: solid;
+background-color: #1e1e1e;
+}
+
+/* Removed the outer box border */
+#outer-box {
+margin: 5px;
+border: none; /* Removed border */
+background-color: #1e1e1e;
+}
+
+#scroll {
+margin: 0px;
+border-width: 1px;
+border-color: #000000; /* Black border */
+border-style: solid;
+}
+
+/* Removed the text border */
+#text {
+margin: 5px;
+border: none; /* Removed border */
+color: #c4c4c4;
+}
+
+#entry:selected {
+background-color: #1e1e1e;
+}
+
+/* Remove any default Wofi window border */
+window {
+    border-radius: 10px; /* 10px radius for rounded corners */
+    border-width: 0px; /* Remove border */
+    border-color: transparent; /* Ensure no border color */
+    border-style: none; /* Remove border style */
+    box-shadow: none; /* Remove box shadow, which can appear as a border */
+}
+
+/* Ensure there's no extra padding/margins affecting borders */
+#container {
+margin: 0;
+padding: 0;
+}
+
+/* If there's still a white border on the whole window, we might need to target the window background */
+window {
+    background-color: #1e1e1e; /* Ensure the background matches your window color */
+}
