@@ -26,3 +26,9 @@ sudo systemctl start sddm
 
 Hyprland config:
 Change default terminal to alacritty add firefox keybind and change scale to 1.0 from auto on display config
+
+Hyprpaper config:
+```
+preload= ~/Pictures/wallpapers/default.jpg
+wallpaper = eDP-1, ~/Pictures/wallpapers/default.jpg
+```
